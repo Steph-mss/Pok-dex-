@@ -4,7 +4,7 @@ Ceci est une application Pokédex qui vous permet de parcourir une liste de Pok�
 
 ## Version Déployée
 
-Vous pouvez voir l'application en direct ici : [https://pok-dex-ss.vercel.app](https://pok-dex-ss.vercel.app/pokedex)
+Vous pouvez voir l'application en direct ici : [https://pok-dex-ss.vercel.app](https://pok-dex-ss.vercel.app)
 
 ## Développement Local
 
