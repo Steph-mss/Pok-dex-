@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img"
+     width="37.07" height="36" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 198">
+  <title>Pokéball</title>
+  <defs>
+    <!-- Zone circulaire exacte (cerclée par un trait) -->
+    <clipPath id="ball-clip">
+      <circle cx="128" cy="99" r="95"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fond transparent -->
+  <rect width="256" height="198" fill="none"/>
+
+  <!-- Corps de la Pokéball, coupé dans le cercle -->
+  <g clip-path="url(#ball-clip)">
+    <!-- Moitié haute rouge -->
+    <rect x="0" y="0" width="256" height="99" fill="#E3350D"/>
+    <!-- Moitié basse blanche -->
+    <rect x="0" y="99" width="256" height="99" fill="#FFFFFF"/>
+    <!-- Bande centrale -->
+    <rect x="0" y="90" width="256" height="18" fill="#111111"/>
+  </g>
+
+  <!-- Contour extérieur (pile au bord du canvas) -->
+  <circle cx="128" cy="99" r="95" fill="none" stroke="#111111" stroke-width="8"/>
+
+  <!-- Bouton central -->
+  <circle cx="128" cy="99" r="26" fill="#FFFFFF" stroke="#111111" stroke-width="8"/>
+  <circle cx="128" cy="99" r="14" fill="#E6E6E6" stroke="#111111" stroke-width="6"/>
+
+  <!-- Reflet discret -->
+  <path d="M118 91a10 10 0 0 1 14 0" fill="none" stroke="#FFFFFF"
+        stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+</svg>
